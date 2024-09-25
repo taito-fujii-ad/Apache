@@ -1,0 +1,13 @@
+#Ctrl + Alt + Rで実行
+#サンプル
+http://www.adobe.com
+
+# dispatcher flush
+POST http://localhost:8080/dispatcher/invalidate.cache HTTP/1.1
+CQ-Action: Delete
+CQ-Handle: /content
+Content-Length: 0
+
+
+# 画像ファイルのアクセス
+http://localhost:8080/us/en/_jcr_content/root/responsivegrid/carousel/teaser.coreimg.jpeg/1727162290121/running-woods-woman.jpeg
