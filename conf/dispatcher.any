@@ -40,14 +40,14 @@
         # /timeout "0"
         }
       #/rendITCloud
-      #  {
+        {
         # Hostname or IP of the render
-      #  /hostname "10.10.247.205"
+        /hostname "10.10.247.205"
         # Port of the render
-      #  /port "4503"
+        /port "4503"
         # Connect timeout in milliseconds, 0 to wait indefinitely
         # /timeout "0"
-      #  }
+        }
   
       }
       
